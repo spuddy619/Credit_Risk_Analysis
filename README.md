@@ -1,7 +1,7 @@
 # Credit_Risk_Analysis
 
 ## Purpose of Analysis
-This analysis is meant to see how different methods of supervised machine learning can be used to address unbalanced classification problems. In this instance we are looking to calculate credit risk - a situation in which the number of good loans greatly outnumber the number of risky loans. By employing the use of oversampling, undersampling, and combination, we will create classes of equal sample size from "LoanStats_2019Q1.csv." We will then create two new machine learning models to predict credit risk.
+This analysis is meant to see how different methods of supervised machine learning can be used to address unbalanced classification problems. In this instance we are looking to calculate credit risk - a situation in which the number of good loans greatly outnumber the number of risky loans. By employing the use of oversampling, undersampling, and combination sampling, we will create classes of equal sample size from "LoanStats_2019Q1.csv." We will then create two new machine learning models to predict credit risk.
 
 ## Results
 ### Resampling 
