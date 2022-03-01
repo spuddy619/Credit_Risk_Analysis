@@ -81,7 +81,34 @@ This analysis is meant to see how different methods of supervised machine learni
   - Balanced Accuracy Score <br/>
     - This model's balanced accuracy score is 53% 
   
-####
+#### Balanced Random Forest Classifier
+- Resample the data: <br/>
+![image](https://user-images.githubusercontent.com/72320203/156101536-125bad78-b9ea-41b6-be4c-58a855dff129.png) <br/>
+- Calculate the balanced accuracy score: <br/>
+![image](https://user-images.githubusercontent.com/72320203/156101864-250407c3-e5d6-4224-b0a9-1bf837eb7bd7.png) <br/>
+- Display the confusion matrix: <br/>
+![image](https://user-images.githubusercontent.com/72320203/156101985-7bbc214f-4e43-4ee3-9483-1ece725af92f.png) <br/>
+- Print the imbalanced classification report: <br/>
+![image](https://user-images.githubusercontent.com/72320203/156102076-0302c20e-2be6-418d-8391-6b94e687ff0a.png) <br/>
+- List the features sorted in descending order by feature importance: <br/>
+![image](https://user-images.githubusercontent.com/72320203/156102155-42de8f54-7d1f-4489-af6c-8b1fb87a7944.png) <br/>
+
+- Looking at the gathered data we can conclude the following: <br/>
+  - Precision: <br/>
+    - This model has a 4% accuracy for high risk loans <br/>
+    - This model has a 100% accuracy for low risk loans <br/>
+  - Balanced Accuracy Score <br/>
+    -This model has a balanced accuracy score of 79 percent.
+#### Easy Ensemble AdaBoost Classifier
+  
+
+
+
+
+
+
+
+
 
 
 
