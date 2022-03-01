@@ -18,7 +18,105 @@ This analysis is meant to see how different methods of supervised machine learni
 - The imbalanced classification report: <br/>
 ![image](https://user-images.githubusercontent.com/72320203/156074958-f55114e2-808c-4e02-ab6f-06b6416b7ad3.png)<br/>
 - Looking at the gathered data we can conclude the following:<br/>
-  - The balanced accuracy score is around 63% <br/>
+  -Precision <br/>
+    - According to the imbalanced classification report, the model's precision in predicting high risk loans is not particulary good at 1% accuracy. <br/>
+    - The precision in predicting low risk loans is very accurate at 100% <br/>
+  -Balanced Accuracy Score <br/>
+    -The balanced accuracy score of this model is around 63% <br/>
+#### SMOTE Oversampling
+- Resampling data with SMOTE: <br/>
+![image](https://user-images.githubusercontent.com/72320203/156084193-8af95061-06f0-4934-b5db-1e9d34827b1b.png) <br/>
+- Training Logistic Regression Model with Resampled Data: <br/>
+![image](https://user-images.githubusercontent.com/72320203/156084286-1b7c6ac7-1764-4423-971c-7e50ecf7e648.png) <br/>
+- Calculate the balanced accuracy score: <br/>
+![image](https://user-images.githubusercontent.com/72320203/156084440-2bb4d8f1-9c3d-486c-8971-9b9b60da1dd9.png) <br/>
+- Display the confusion matrix: <br/>
+![image](https://user-images.githubusercontent.com/72320203/156084505-10ed9cae-ffc9-4248-8291-2ee0e75fd6a7.png) <br/>
+- Print the imbalanced classification report: <br/>
+![image](https://user-images.githubusercontent.com/72320203/156084602-2bd512ee-9d51-4abd-83eb-997bb5a01de0.png) <br/>
+
+
+- Looking at the gathered data we can conclude the following:<br/>
+  - Precision <br/>
+    - This model's precision for high risk loans is 1% <br/>
+    - This model's precision for low risk loans is 100% <br/>
+  - Balanced Accuracy Score <br/>
+    -The balanced accuracy score is around 63% for this model
+    
+#### Undersampling
+- Resampling the data: <br/>
+![image](https://user-images.githubusercontent.com/72320203/156085432-6ecc56c9-ae69-4e56-9e46-035ba812cf33.png) <br/>
+- Train the Logistic Regression Model using the resampled data: <br/>
+![image](https://user-images.githubusercontent.com/72320203/156085621-9b53e4b6-2ce3-4362-91e5-1f99105268c7.png) <br/>
+- Calculate the balanced accuracy score: <br/>
+![image](https://user-images.githubusercontent.com/72320203/156085705-c2b7f783-73f4-4079-9653-bc794fe9da7a.png) <br/>
+- Display the confusion matrix: <br/>
+![image](https://user-images.githubusercontent.com/72320203/156085804-8a12bb76-1b8a-46c9-9ee7-97b408c083bf.png) <br/>
+- Print the imbalanced classification report: <br/>
+![image](https://user-images.githubusercontent.com/72320203/156085888-d92cf6da-0d38-466c-a6cb-4d85fc75d722.png) <br/>
+
+- Looking at the gathered data we can conclude the following:<br/>
+  - Precision <br/>
+    - This model's precision for high risk loans is 1% <br/>
+    - This model's precision for low_risk loans is 100% <br/>
+  - Balanced Accuracy Score <br/>
+    - The balanced accuracy score for this model is around 63% <br/>
+
+#### Combination (Over and Under) Sampling
+- Resample the data: <br/>
+![image](https://user-images.githubusercontent.com/72320203/156090462-b8be16b8-bcff-477a-96fb-ec9625e88dd9.png) <br/>
+- Train the Logistic Regression Model: <br/>
+![image](https://user-images.githubusercontent.com/72320203/156090941-171bbc38-e801-4dea-b6a7-276c8d335402.png) <br/>
+- Calculate balanced accuracy score: <br/>
+![image](https://user-images.githubusercontent.com/72320203/156097290-824413d8-de45-48bc-8d5a-86813f45a222.png) <br/>
+- Display the confusion matrix: <br/>
+![image](https://user-images.githubusercontent.com/72320203/156097518-bfaa4d0a-ec8d-4c8e-ba7a-d9b1e854e0b2.png) <br/>
+- Print the imbalanced classification report: <br/>
+![image](https://user-images.githubusercontent.com/72320203/156097619-d6c563fa-889b-4f84-88a3-b45f856e94bc.png) <br/>
+
+- Looking at the gathered data we can conclude the following: <br/>
+  - Precision <br/>
+    - This model's precision for high risk loans is 1%
+    - This model's precision for low risk loans is 100% 
+  - Balanced Accuracy Score <br/>
+    - This model's balanced accuracy score is 53% 
+  
+####
+
+
+
+
+
+
+
+ 
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+   
+
 
 
 
