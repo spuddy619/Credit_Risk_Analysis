@@ -98,8 +98,31 @@ This analysis is meant to see how different methods of supervised machine learni
     - This model has a 4% accuracy for high risk loans <br/>
     - This model has a 100% accuracy for low risk loans <br/>
   - Balanced Accuracy Score <br/>
-    -This model has a balanced accuracy score of 79 percent.
+    - This model has a balanced accuracy score of 79 percent.
 #### Easy Ensemble AdaBoost Classifier
+- Resample the data: <br/>
+![image](https://user-images.githubusercontent.com/72320203/156424772-5c36845e-3c70-40de-ac9e-24ba7deb55c9.png) <br/>
+- Calculate the balanced accuracy score: <br/>
+![image](https://user-images.githubusercontent.com/72320203/156424951-8e05210f-7da1-42fe-8a62-4db2433a0602.png) <br/>
+- Display the confusion matrix: <br/>
+![image](https://user-images.githubusercontent.com/72320203/156425054-ef44163d-ab25-474c-a128-54f2c1d7f1bd.png) <br/>
+- Print the imbalanced classification report <br/>
+![image](https://user-images.githubusercontent.com/72320203/156425152-358ae6c1-b0ca-4b04-ab07-2e188ed7be00.png) <br/>
+
+- Looking at the gathered data:
+  - Precision: <br/>
+    - This model has a 7% accuracy for high risk loans <br/>
+    - This model has a 100% accuracy for low risk loans <br/>
+  - Balanced Accuracy Score: <br/>
+    - This model has balanced accuracy score of 92 percent <br/>
+
+## Summary
+We have concluded that out of the 5 models created and examined, the best model for predicting the high-risk loans was the model that used the Easy Ensemble Adaboost Classifier method; however, the model is not particularly accurate, with a precision of 7% for high risk loans. All the models are excellent at predicting low risk loans but that is not particularly helpful as we want to detect high risk loans. Yes, the Adaboost Classifier is the most precise in this endeavor out of all the models, but with an abysmal precision of 7%. We cannot recomment any of these models for that reason.
+
+
+
+
+
   
 
 
